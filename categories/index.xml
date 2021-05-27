@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Hugo Themes</title>
+    <link>https://example.com/categories/</link>
+    <description>Recent content in Categories on Hugo Themes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 22 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Premium</title>
+      <link>https://example.com/categories/premium/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/premium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public Domain</title>
+      <link>https://example.com/categories/public-domain/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/public-domain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samples</title>
+      <link>https://example.com/categories/samples/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/samples/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>https://example.com/categories/blog/</link>
+      <pubDate>Wed, 11 Mar 2020 00:08:46 +0100</pubDate>
+      
+      <guid>https://example.com/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://example.com/categories/development/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://example.com/categories/golang/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Samples on Hugo Themes</title>
+    <link>https://example.com/categories/samples/</link>
+    <description>Recent content in Samples on Hugo Themes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/samples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modular construction kit</title>
+      <link>https://example.com/pd/modular-construction-kit/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.com/pd/modular-construction-kit/</guid>
+      <description>Morphable modular waves</description>
+    </item>
+    
+  </channel>
+</rss>

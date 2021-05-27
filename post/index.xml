@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Modular Samples</title>
+    <link>https://modularsamples.com/post/</link>
+    <description>Recent content in Posts on Modular Samples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 May 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chromatic Loops</title>
+      <link>https://modularsamples.com/post/modularmay27/</link>
+      <pubDate>Thu, 27 May 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/modularmay27/</guid>
+      <description>8 velocity sensetive loop patches for Logic and Kontakt</description>
+    </item>
+    
+    <item>
+      <title>Arturia Microfreak Samples</title>
+      <link>https://modularsamples.com/post/microfreak/</link>
+      <pubDate>Thu, 11 Mar 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/microfreak/</guid>
+      <description>New repository of Microfreak sounds.</description>
+    </item>
+    
+    <item>
+      <title>MORE wavetables for Retrosynth</title>
+      <link>https://modularsamples.com/post/retroupdate/</link>
+      <pubDate>Mon, 22 Feb 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/retroupdate/</guid>
+      <description>Wavetables for Retrosynth, now with added wavetables</description>
+    </item>
+    
+    <item>
+      <title>New Modular sounds</title>
+      <link>https://modularsamples.com/post/modularjan21/</link>
+      <pubDate>Sat, 30 Jan 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/modularjan21/</guid>
+      <description>9 chord and lead sounds.</description>
+    </item>
+    
+    <item>
+      <title>Lilac jam</title>
+      <link>https://modularsamples.com/post/lilacjam/</link>
+      <pubDate>Fri, 22 Jan 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/lilacjam/</guid>
+      <description>Demo of the free VSTi Lilac.</description>
+    </item>
+    
+    <item>
+      <title>SFZ</title>
+      <link>https://modularsamples.com/post/sfz/</link>
+      <pubDate>Fri, 22 Jan 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/sfz/</guid>
+      <description>It&amp;rsquo;s been bugging me for ages, a public domain sample library should have better support for open formats, right? Well now most libraries have SFZ patches available. In most cases they&amp;rsquo;re not as refined as their EXS and NKI counterparts but the basic mappings are there.</description>
+    </item>
+    
+    <item>
+      <title>Modular Construction Kit</title>
+      <link>https://modularsamples.com/post/modularck/</link>
+      <pubDate>Fri, 11 Dec 2020 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/modularck/</guid>
+      <description>I recently added a library of simple(ish) waveforms from a Eurorack modular. Each wave has been recorded with different filter settings allowing for crossfade modulation and other fancy tricks. Patch files are available in EXS, NKI and SFZ formats.
+Modular Construction Kit</description>
+    </item>
+    
+    <item>
+      <title>S612 Library Demos</title>
+      <link>https://modularsamples.com/post/s612demos/</link>
+      <pubDate>Wed, 11 Mar 2020 00:08:46 +0100</pubDate>
+      
+      <guid>https://modularsamples.com/post/s612demos/</guid>
+      <description>Demos of the Akai s612 library</description>
+    </item>
+    
+  </channel>
+</rss>

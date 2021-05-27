@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcodes on PaperCSS</title>
+    <link>https://example.com/tags/shortcodes/</link>
+    <description>Recent content in shortcodes on PaperCSS</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Feb 2019 13:50:01 -0600</lastBuildDate><atom:link href="https://example.com/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Papercss Shortcodes</title>
+      <link>https://example.com/papercss-shortcodes/</link>
+      <pubDate>Tue, 26 Feb 2019 13:50:01 -0600</pubDate>
+      
+      <guid>https://example.com/papercss-shortcodes/</guid>
+      <description>border {{&amp;lt; border &amp;gt;}} Regular {{&amp;lt; /border &amp;gt;}} {{&amp;lt; border &amp;quot;dashed&amp;quot; &amp;gt;}} Dashed {{&amp;lt; /border &amp;gt;}} {{&amp;lt; border &amp;quot;dotted&amp;quot; &amp;gt;}} Dotted {{&amp;lt; /border &amp;gt;}} {{&amp;lt; border &amp;quot;dashed thick&amp;quot; &amp;gt;}} Dashed Thick {{&amp;lt; /border &amp;gt;}} {{&amp;lt; border &amp;quot;dotted thick&amp;quot; &amp;gt;}} Dotted Thick {{&amp;lt; /border &amp;gt;}}  Regular   Dashed   Dotted   Dashed Thick   Dotted Thick   color {{&amp;lt; color &amp;quot;primary&amp;quot; &amp;gt;}} Text primary {{&amp;lt; /color &amp;gt;}} {{&amp;lt; color &amp;quot;secondary&amp;quot; &amp;gt;}} Text secondary {{&amp;lt; /color &amp;gt;}} {{&amp;lt; color &amp;quot;success&amp;quot; &amp;gt;}} Text success {{&amp;lt; /color &amp;gt;}} {{&amp;lt; color &amp;quot;warning&amp;quot; &amp;gt;}} Text warning {{&amp;lt; /color &amp;gt;}} {{&amp;lt; color &amp;quot;danger&amp;quot; &amp;gt;}} Text danger {{&amp;lt; /color &amp;gt;}} {{&amp;lt; color &amp;quot;muted&amp;quot; &amp;gt;}} Text muted {{&amp;lt; /color &amp;gt;}} Text primary  Text secondary  Text success  Text warning  Text danger  Text muted  background {{&amp;lt; background &amp;quot;primary&amp;quot; &amp;gt;}} Background primary {{&amp;lt; /background &amp;gt;}} {{&amp;lt; background &amp;quot;secondary&amp;quot; &amp;gt;}} Background secondary {{&amp;lt; /background &amp;gt;}} {{&amp;lt; background &amp;quot;success&amp;quot; &amp;gt;}} Background success {{&amp;lt; /background &amp;gt;}} {{&amp;lt; background &amp;quot;warning&amp;quot; &amp;gt;}} Background warning {{&amp;lt; /background &amp;gt;}} {{&amp;lt; background &amp;quot;danger&amp;quot; &amp;gt;}} Background danger {{&amp;lt; /background &amp;gt;}} Background primary  Background secondary  Background success  Background warning  Background danger  alert {{&amp;lt; alert &amp;quot;primary&amp;quot; &amp;gt;}} Alert-primary {{&amp;lt; /alert &amp;gt;}} {{&amp;lt; alert &amp;quot;secondary&amp;quot; &amp;gt;}} Alert-secondary {{&amp;lt; /alert &amp;gt;}} {{&amp;lt; alert &amp;quot;success&amp;quot; &amp;gt;}} Alert-success {{&amp;lt; /alert &amp;gt;}} {{&amp;lt; alert &amp;quot;warning&amp;quot; &amp;gt;}} Alert-warning {{&amp;lt; /alert &amp;gt;}} {{&amp;lt; alert &amp;quot;danger&amp;quot; &amp;gt;}} Alert-danger {{&amp;lt; /alert &amp;gt;}} Alert-primary  Alert-secondary  Alert-success  Alert-warning  Alert-danger  badge &amp;lt;h3&amp;gt;Example badge {{&amp;lt; badge &amp;gt;}}123{{&amp;lt; /badge &amp;gt;}}&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;Example badge {{&amp;lt; badge &amp;quot;secondary&amp;quot; &amp;gt;}}123{{&amp;lt; /badge &amp;gt;}}&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;Example badge {{&amp;lt; badge &amp;quot;success&amp;quot; &amp;gt;}}123{{&amp;lt; /badge &amp;gt;}}&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;Example badge {{&amp;lt; badge &amp;quot;warning&amp;quot; &amp;gt;}}123{{&amp;lt; /badge &amp;gt;}}&amp;lt;/h3&amp;gt; &amp;lt;h3&amp;gt;Example badge {{&amp;lt; badge &amp;quot;danger&amp;quot; &amp;gt;}}123{{&amp;lt; /badge &amp;gt;}}&amp;lt;/h3&amp;gt; Example badge 123  Example badge 123  Example badge 123  Example badge 123  Example badge 123  card The img param accepts an image page resource name.</description>
+    </item>
+    
+  </channel>
+</rss>

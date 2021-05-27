@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools &amp; Software on Modular Samples</title>
+    <link>https://modularsamples.com/samples/tools/</link>
+    <description>Recent content in Tools &amp; Software on Modular Samples</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://modularsamples.com/samples/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fender Chroma Polaris editor for Numerology</title>
+      <link>https://modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</guid>
+      <description>A MIDI editor/Sequencer for the Chroma Polaris</description>
+    </item>
+    
+    <item>
+      <title>Jomox Xbase 999 editor for Lemur</title>
+      <link>https://modularsamples.com/samples/tools/jomox-xbase-999-editor-for-lemur/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://modularsamples.com/samples/tools/jomox-xbase-999-editor-for-lemur/</guid>
+      <description>A MIDI editor/Sequencer for the Chroma Polaris</description>
+    </item>
+    
+    <item>
+      <title>Korg Volca Drum Editor for Numerology</title>
+      <link>https://modularsamples.com/samples/tools/korg-volca-drum-editor-for-numerology/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://modularsamples.com/samples/tools/korg-volca-drum-editor-for-numerology/</guid>
+      <description>A MIDI editor/Sequencer for the Chroma Polaris</description>
+    </item>
+    
+    <item>
+      <title>Korg Volca Keys Editor for Numerology</title>
+      <link>https://modularsamples.com/samples/tools/korg-volca-keys-editor-for-numerology/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://modularsamples.com/samples/tools/korg-volca-keys-editor-for-numerology/</guid>
+      <description>A MIDI editor/Sequencer for the Volca Keys</description>
+    </item>
+    
+    <item>
+      <title>Lilac and Peach</title>
+      <link>https://modularsamples.com/samples/tools/lilac-peach/</link>
+      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://modularsamples.com/samples/tools/lilac-peach/</guid>
+      <description>A pair of virtual Instruments</description>
+    </item>
+    
+  </channel>
+</rss>
