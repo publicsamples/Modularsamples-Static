@@ -1,6 +1,7 @@
 /* base */
 body {
   background-image: url('/img/geometry2.png');
+   background-position: center; 
 }
 
 /* anchors */
