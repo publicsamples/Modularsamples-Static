@@ -38,9 +38,8 @@ var keys = new Tone.Sampler({
 			"B3" : "file36.[mp3|ogg]"
 	
 				
-				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Roland-Jupiter-4-Misc/master/jp4/Bass/4Bass/"
+						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Bass/4Bass/"
 					})					.connect(filter);
 					

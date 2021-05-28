@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Roland-Jupiter-4-Misc/master/jp4/Bass/RandomBass90/"
+						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Bass/RandomBass90/"
 					})					.connect(filter);
 					

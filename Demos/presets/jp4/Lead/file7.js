@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Roland-Jupiter-4-Misc/master/jp4/Lead/GoneAwayForever/"
+						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Lead/GoneAwayForever/"
 					})					.connect(filter);
 					

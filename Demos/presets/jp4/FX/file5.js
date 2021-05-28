@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Roland-Jupiter-4-Misc/master/jp4/FX/facialExercise/"
+						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/FX/facialExercise/"
 					})					.connect(filter);
 					

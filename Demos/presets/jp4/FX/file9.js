@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Roland-Jupiter-4-Misc/master/jp4/FX/Res/"
+						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/FX/Res/"
 					})					.connect(filter);
 					
