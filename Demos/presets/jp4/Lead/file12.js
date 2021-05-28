@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Lead/Sticky/"
+						"baseUrl" : "Lead/Sticky/"
 					})					.connect(filter);
 					

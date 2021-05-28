@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/FX/SexySynthesizer/"
+						"baseUrl" : "FX/SexySynthesizer/"
 					})					.connect(filter);
 					

@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Bass/RockSchoolBass/"
+						"baseUrl" : "Bass/RockSchoolBass/"
 					})					.connect(filter);
 					

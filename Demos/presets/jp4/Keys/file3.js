@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Keys/MellowOrgan/"
+						"baseUrl" : "Keys/MellowOrgan/"
 					})					.connect(filter);
 					

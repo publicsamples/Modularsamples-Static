@@ -43,6 +43,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Pads/PWMLady/"
+						"baseUrl" : "Pads/PWMLady/"
 					})					.connect(filter);
 					

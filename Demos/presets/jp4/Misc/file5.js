@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Misc/HiBlip/"
+						"baseUrl" : "Misc/HiBlip/"
 					})					.connect(filter);
 					

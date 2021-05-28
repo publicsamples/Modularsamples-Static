@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Misc/FakeFlute/"
+						"baseUrl" : "Misc/FakeFlute/"
 					})					.connect(filter);
 					

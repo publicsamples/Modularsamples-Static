@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Misc/PWMStrings/"
+						"baseUrl" : "Misc/PWMStrings/"
 					})					.connect(filter);
 					

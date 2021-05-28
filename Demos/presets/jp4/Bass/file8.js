@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Bass/Submissive/"
+						"baseUrl" : "Bass/Submissive/"
 					})					.connect(filter);
 					

@@ -43,6 +43,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Pads/Normans/"
+						"baseUrl" : "Pads/Normans/"
 					})					.connect(filter);
 					

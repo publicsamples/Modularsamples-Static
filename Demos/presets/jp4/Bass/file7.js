@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Bass/SquidgyBlack/"
+						"baseUrl" : "Bass/SquidgyBlack/"
 					})					.connect(filter);
 					

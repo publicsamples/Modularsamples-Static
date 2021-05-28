@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Lead/CatBrush/"
+						"baseUrl" : "Lead/CatBrush/"
 					})					.connect(filter);
 					

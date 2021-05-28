@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Keys/MuckWeedsOrgan/"
+						"baseUrl" : "Keys/MuckWeedsOrgan/"
 					})					.connect(filter);
 					

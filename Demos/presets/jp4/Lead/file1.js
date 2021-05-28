@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Lead/BlipLead/"
+						"baseUrl" : "Lead/BlipLead/"
 					})					.connect(filter);
 					

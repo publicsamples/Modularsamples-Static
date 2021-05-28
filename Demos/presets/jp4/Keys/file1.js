@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Keys/ElectronicPiano/"
+						"baseUrl" : "Keys/ElectronicPiano/"
 					})					.connect(filter);
 					

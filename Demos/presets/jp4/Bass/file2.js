@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Bass/NoisyBass/"
+						"baseUrl" : "Bass/NoisyBass/"
 					})					.connect(filter);
 					

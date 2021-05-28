@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/Misc/Princess/"
+						"baseUrl" : "Misc/Princess/"
 					})					.connect(filter);
 					

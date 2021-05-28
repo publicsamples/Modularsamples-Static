@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "/presets/jp4/FX/Res/"
+						"baseUrl" : "FX/Res/"
 					})					.connect(filter);
 					
