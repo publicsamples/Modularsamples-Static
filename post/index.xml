@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Modular Samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 May 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ULP granular demo</title>
+      <link>https://www.modularsamples.com/post/ulp-grainsynth/</link>
+      <pubDate>Fri, 28 May 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://www.modularsamples.com/post/ulp-grainsynth/</guid>
+      <description>Play a selection of loops for Untitled Loop project through a brower based granular synthesizer.</description>
+    </item>
+    
     <item>
       <title>Chromatic Loops</title>
       <link>https://www.modularsamples.com/post/modularmay27/</link>

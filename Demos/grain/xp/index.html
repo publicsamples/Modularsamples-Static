@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html>
+<title>Web Audio Granular Synthesiser</title>
+	<head>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=no'/>
+		<meta property="og:title" content="Multi-Touch Granular Sampler 1.0 by ZYA" />
+		<meta property="og:site_name" content="ZYA.CC"/>
+		<meta property="og:url" content="http://www.zya.cc/granular" />
+		
+		<!-- CSS Libs -->
+		<link rel="stylesheet" href="libs/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/css/bootstrap-theme.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100,400|Open+Sans:400,300,700,600|Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+        <meta property="og:description" content="Granular synthesis is a method of sound synthesis based on splitting the audio into small pieces and playing them with short intervals.
+						After loading a sample, you can start creating grains by clicking and holding your mouse on the waveform. The X axis will determine the position and Y axis will change the amplitude of each grain.
+						This app also has multi-touch support for up to three voices and real-time manipulation of settings.
+						
+						Tested on: Google Chrome,Firefox, Safari, Chrome iOS (iPad), Safari iOS (iPad)
+						Libraries used: Web Audio AP, Processing.js, Bootstrap 3,jQuery Knob.
+
+						Performance Tip: Try using a quick attack and release as well as low density when using multi-touch for better performance." />
+		<meta property="og:image" content="http://static.tumblr.com/oczhivm/Kjmmymz3f/granular.jpg" />
+		<!-- JS Libs -->
+		<script src="libs/js/jquery-1.10.1.js"></script>
+		<script src='libs/js/jquery.knob.js'></script>
+		<script src="libs/js/processing-1.4.1.js"></script>
+		<script src="libs/js/bootstrap.min.js"></script>
+		
+		<!-- App -->
+		<script src="js/gui.js"></script>		
+		<script src="js/main.js"></script>		
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	
+	
+	<body>
+		<!-- waveform row -->
+	    <div class="dropdown">
+	              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+	                Samples
+	                <span class="caret"></span>
+	              </button>
+	              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+				  <li id='sample1'><a href="#">1</a></li>
+				  <li id='sample2'><a href="#">2</a></li>
+				  <li id='sample3'><a href="#">3</a></li>
+				  <li id='sample4'><a href="#">4</a></li>
+				  <li id='sample5'><a href="#">5</a></li>
+				  <li id='sample6'><a href="#">6</a></li>
+				  <li id='sample7'><a href="#">7</a></li>
+				  <li id='sample8'><a href="#">8</a></li>
+				  <li id='sample9'><a href="#">9</a></li>
+				  <li id='sample10'><a href="#">10</a></li>
+				  <li id='sample11'><a href="#">11</a></li>
+				  <li id='sample12'><a href="#">12</a></li>
+				  <li id='sample13'><a href="#">13</a></li>
+				  <li id='sample14'><a href="#">14</a></li>
+				  <li id='sample15'><a href="#">15</a></li>
+				  <li id='sample16'><a href="#">16</a></li>
+				  <li id='sample17'><a href="#">17</a></li>
+				  <li id='sample18'><a href="#">18</a></li>
+				  <li id='sample19'><a href="#">19</a></li>
+				  <li id='sample20'><a href="#">20</a></li>
+				  <li id='sample21'><a href="#">21</a></li>
+				  <li id='sample22'><a href="#">22</a></li>
+				  <li id='sample23'><a href="#">23</a></li>
+				  <li id='sample24'><a href="#">24</a></li>
+				  <li id='sample25'><a href="#">25</a></li>
+				  <li id='sample26'><a href="#">26</a></li>
+				  <li id='sample27'><a href="#">27</a></li>
+				  <li id='sample28'><a href="#">28</a></li>
+				  <li id='sample29'><a href="#">29</a></li>
+				  <li id='sample30'><a href="#">30</a></li>
+				  <li id='sample31'><a href="#">31</a></li>
+				  <li id='sample32'><a href="#">32</a></li>
+				  <li id='sample33'><a href="#">33</a></li>
+				  <li id='sample34'><a href="#">34</a></li>
+				  <li id='sample35'><a href="#">35</a></li>
+				  <li id='sample36'><a href="#">36</a></li>
+				  <li id='sample37'><a href="#">37</a></li>
+				  <li id='sample38'><a href="#">38</a></li>
+				  <li id='sample39'><a href="#">39</a></li>
+				  <li id='sample40'><a href="#">40</a></li>
+ 				  <li id='sample41'><a href="#">41</a></li>
+ 				  <li id='sample42'><a href="#">42</a></li>
+ 				  <li id='sample43'><a href="#">43</a></li>
+ 				  <li id='sample44'><a href="#">44</a></li>
+	              
+	              </ul>
+	            </div>
+		<div class='row ' id='waveform'>
+			
+			<canvas id='canvas'></canvas>
+			<canvas id='canvas2'></canvas>
+			<div id='help'>
+				<br>
+				<div class='row .hidden-xs' id='x'><span class='glyphicon glyphicon-arrow-left'></span> x axis - grain position <span class='glyphicon glyphicon-arrow-right'></span><br><br><span class='glyphicon glyphicon-arrow-up'></span><br>y axis - grain amplitude<br> <span class='glyphicon glyphicon-arrow-down'></span> </div>
+				
+				<br>
+				<br>
+				<div class='row'>
+					<div class='col-md-3 col-sm-3 col-xs-3'></div>
+					<div class='col-md-6 col-sm-6 col-xs-6'> <br>Load a sample from the menu above <br><br></div>
+					<div class='col-md-3 col-sm-3 col-xs-3'></div>
+				</div><br>
+				<div class='row'>
+					<div class='col-md-3 col-sm-3 col-xs-3'></div>
+					<div class='col-md-3 col-sm-3 col-xs-3'></div>
+				</div><br>
+				<div class='row hidden-xs' id='description'>
+					<div class='col-md-3 col-sm-3 col-xs-3'>
+					
+					</div>
+					<div class='col-md-6 col-sm-6 col-xs-6'>
+						
+					</div>
+					<div class='col-md-3 col-sm-3 col-xs-3'>
+				
+					
+					</div>
+					
+				</div>
+			
+			</div>
+
+		</div>
+
+		<!-- controls row -->
+		<div class='row' id='controls' >
+			<div class='col-md-2 col-sm-2 col-xs-2'>
+				<div class='label'>attack</div><br><br>
+				<input type="text" class="dial" id='attack' data-min='0' data-max='100' value='40'><br><br>
+				
+			</div>
+
+			<div class='col-md-2 col-sm-2 col-xs-2'>
+				<div class='label'>release</div><br><br>
+				<input type="text" class="dial" id='release' data-min='0' data-max='100' value='40'>
+			</div>
+
+			<div class='col-md-2 col-sm-2 col-xs-2' >
+				<div class='label'>density</div><br><br>
+				<input type="text" class="dial" id='density' data-min='0' data-max='100' value='85'>
+			</div>
+
+			<div class='col-md-2 col-sm-2 col-xs-2'>
+				<div class='label'>spread</div><br><br>
+				<input type="text" class="dial" id='spread' data-min='0' data-max='100' value='20'>
+			</div>
+
+			<div class='col-md-2 col-sm-2 col-xs-2'>
+				<div class='label' >pan</div><br><br>
+				<input type="text" class="dial" id='pan' data-min='0' data-max='100' value='20'>
+			</div>
+
+			<div class='col-md-2 col-sm-2 col-xs-2 hidden-xs' >
+				<div class='label'>transpose</div><br><br>
+				<div id='transpose'>
+
+					<button id='minus' class='btn'>
+						-12
+					</button>
+
+					<button id='plus' class='btn'>
+						+12
+					</button><br><br>
+					<span class="glyphicon glyphicon-question-sign" id='helpbutton'></span>
+					
+				</div>
+				
+			</div>
+	
+		</div>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-45115441-1', 'zya.cc');
+	  ga('send', 'pageview');
+
+	</script>
+		
+	</body>
+</html>

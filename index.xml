@@ -6,7 +6,43 @@
     <description>Recent content in News on Modular Samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 May 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.modularsamples.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drones</title>
+      <link>https://www.modularsamples.com/samples/pd/drones/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/pd/drones/</guid>
+      <description>A large collection of loops</description>
+    </item>
+    
+    <item>
+      <title>Metasynth Loops</title>
+      <link>https://www.modularsamples.com/samples/pd/metasynth/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/pd/metasynth/</guid>
+      <description>A large collection of loops</description>
+    </item>
+    
+    <item>
+      <title>Xpander Loops</title>
+      <link>https://www.modularsamples.com/samples/pd/xpanderloop/</link>
+      <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/pd/xpanderloop/</guid>
+      <description>A large collection of loops</description>
+    </item>
+    
+    <item>
+      <title>ULP granular demo</title>
+      <link>https://www.modularsamples.com/post/ulp-grainsynth/</link>
+      <pubDate>Fri, 28 May 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://www.modularsamples.com/post/ulp-grainsynth/</guid>
+      <description>Play a selection of loops for Untitled Loop project through a brower based granular synthesizer.</description>
+    </item>
+    
     <item>
       <title>Chromatic Loops</title>
       <link>https://www.modularsamples.com/post/modularmay27/</link>
