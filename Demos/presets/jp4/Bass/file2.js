@@ -41,6 +41,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Bass/NoisyBass/"
+						"baseUrl" : "/presets/jp4/Bass/NoisyBass/"
 					})					.connect(filter);
 					

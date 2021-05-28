@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/FX/OrganicHell/"
+						"baseUrl" : "/presets/jp4/FX/OrganicHell/"
 					})					.connect(filter);
 					

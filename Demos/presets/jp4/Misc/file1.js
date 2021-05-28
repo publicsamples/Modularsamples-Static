@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Misc/Babybrass/"
+						"baseUrl" : "/presets/jp4/Misc/Babybrass/"
 					})					.connect(filter);
 					

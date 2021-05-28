@@ -42,6 +42,6 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://github.com/publicsamples/Roland-Jupiter-4/raw/master/WebsiteDemos/Keys/MellowOrgan/"
+						"baseUrl" : "/presets/jp4/Keys/MellowOrgan/"
 					})					.connect(filter);
 					
