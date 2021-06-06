@@ -8,15 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.modularsamples.com/samples/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Fender Chroma Polaris editor for Numerology</title>
-      <link>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</link>
-      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</guid>
-      <description>A MIDI editor/Sequencer for the Chroma Polaris</description>
-    </item>
-    
-    <item>
       <title>Jomox Xbase 999 editor for Lemur</title>
       <link>https://www.modularsamples.com/samples/tools/jomox-xbase-999-editor-for-lemur/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
@@ -50,6 +41,15 @@
       
       <guid>https://www.modularsamples.com/samples/tools/lilac-peach/</guid>
       <description>A pair of virtual Instruments</description>
+    </item>
+    
+    <item>
+      <title>Fender Chroma Polaris editor for Numerology</title>
+      <link>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</guid>
+      <description>Edit and sequence the Chroma Polaris</description>
     </item>
     
   </channel>

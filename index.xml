@@ -13,7 +13,7 @@
       <pubDate>Fri, 28 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/drones/</guid>
-      <description>A large collection of loops</description>
+      <description>A large collection of drone sounds</description>
     </item>
     
     <item>
@@ -116,15 +116,6 @@
     </item>
     
     <item>
-      <title>Fender Chroma Polaris editor for Numerology</title>
-      <link>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</link>
-      <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</guid>
-      <description>A MIDI editor/Sequencer for the Chroma Polaris</description>
-    </item>
-    
-    <item>
       <title>Jomox Xbase 999 editor for Lemur</title>
       <link>https://www.modularsamples.com/samples/tools/jomox-xbase-999-editor-for-lemur/</link>
       <pubDate>Fri, 19 Mar 2021 00:00:00 +0000</pubDate>
@@ -211,7 +202,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/akai-ax80/</guid>
-      <description>EXS24, Kontakt &amp;amp; SFZ</description>
+      <description>EXS24, Kontakt &amp;amp; SFZ. 2.5gb</description>
     </item>
     
     <item>
@@ -220,7 +211,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/akai-s612-modular/</guid>
-      <description>Gritty Vintage Sampler meets Modern Modular. EXS24, Kontakt &amp;amp; SFZ. 2gb.</description>
+      <description>EXS24, Kontakt &amp;amp; SFZ. 2gb.</description>
     </item>
     
     <item>
@@ -238,7 +229,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/arturia-microbrute/</guid>
-      <description>Tiny Semi-Modular. EXS24, Kontakt, NN-XT &amp;amp; SFZ. 530mb.</description>
+      <description>EXS24, Kontakt, NN-XT &amp;amp; SFZ. 530mb.</description>
     </item>
     
     <item>
@@ -256,7 +247,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/behringer-crave/</guid>
-      <description>Moog Mother 32 Clone. EXS24, Kontakt. 960mb.</description>
+      <description>EXS24, Kontakt. 960mb.</description>
     </item>
     
     <item>
@@ -265,7 +256,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/casio-ht-700/</guid>
-      <description>Editable home keyboard.</description>
+      <description>Logic Sampler, Kontakt</description>
     </item>
     
     <item>
@@ -499,7 +490,7 @@
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/samples/pd/roland-hs-80/</guid>
-      <description>Home Juno</description>
+      <description>EXS24, Kontakt &amp;amp; SFZ. 2gb.</description>
     </item>
     
     <item>
@@ -612,12 +603,36 @@ Modular Construction Kit</description>
     </item>
     
     <item>
+      <title>Fender Chroma Polaris editor for Numerology</title>
+      <link>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</link>
+      <pubDate>Thu, 19 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</guid>
+      <description>Edit and sequence the Chroma Polaris</description>
+    </item>
+    
+    <item>
       <title>S612 Library Demos</title>
       <link>https://www.modularsamples.com/post/s612demos/</link>
       <pubDate>Wed, 11 Mar 2020 00:08:46 +0100</pubDate>
       
       <guid>https://www.modularsamples.com/post/s612demos/</guid>
       <description>Demos of the Akai s612 library</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.modularsamples.com/sfz/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/sfz/readme/</guid>
+      <description>sfz.js JavaScript solution for working with .sfz files
+Supported opcodes: volume pan transpose tune pitch_keycenter pitch_keytrack pitch_veltrack bend_up bend_down
+TODO: seq_length seq_position group= (pg 377) off_by (pg 377) width (pg 383) position (pg 383) amp_keytrack amp_veltrack
+LFOs lfoN_wave lfoN_pitch lfoN_delay lfoN_freq lfoN_pitch_onccX lfoN_pitch_onccX
+Flexible EG egN_cutoff egN_sustain egN_timeX egN_levelX egN_shapeX egN_timeX egN_levelX egN_shapeX egN_timeX egN_levelX egN_shapeX egN_timeX egN_levelX egN_shapeX egN_timeX egN_levelX egN_shapeX egN_timeX egN_levelX egN_shapeX
+Not Supported:
+ Flexible Envelope Generators TODO LATER:  The following opcodes are not implemented, and won&amp;rsquo;t be in the near term: load_mode load_start load_end sample_quality image oscillator oscillator_phase oscillator_quality oscillator_table_size oscillator_multi oscillator_mode oscillator_detune oscillator_detune_oncc oscillator_mod_depth oscillator_mod_depth_oncc oscillator_mod_smooth oscillator_mod_smoothcc polyphony reverse_locc reverse_hicc start_hicc stop_hicc start_locc stop_locc sw_lokey sw_hikey sw_last sw_down sw_up sw_previous sw_vel sustain_sw sostenuto_sw trigger rt_decay rt_dead off_mode on_loccN on_hiccN count delay delay_beats stop_beats delay_ccN delay_onccN delay_random delay_samples delay_samples_oncc loop_crossfade offset_random offset_ccN offset_onccN sync_beats sync_offset amp_random output gain_ccN gain_onccN xfin_lokey xfin_hikey xfout_lokey xfout_hikey xf_keycurve xfin_lovel xfin_hivel xfout_lovel xfout_hivel xf_velcurve xfin_loccN xfin_hiccN xfout_loccN xfout_hiccN xf_cccurve pitch_random pitch_onccN pitch_curvecc pitch_stepcc bend_step bend_stepup bend_stepdown fil2_type cutoff2 cutoff2_onccN cutoff2_stepccN cutoff2_curveccN cutoff_smoothoncc cutoff_chanaft cutoff_polyaft resonance_onccN resonance2_onccN resonance_smoothccN resonance2_smoothccN resonance_curveccN resonance2_curveccN fil2_keytrack fil2_keycenter fil2_veltrack fil_random noise_filter noise_stereo noise_level noise_level_oncc noise_level_smoothccN noise_step noise_step_onccN noise_tone noise_tone_onccN pitcheg_delay pitcheg_start pitcheg_attack pitcheg_hold pitcheg_decay pitcheg_sustain pitcheg_release pitcheg_depth pitcheg_vel2delay pitcheg_vel2attack pitcheg_vel2hold pitcheg_vel2decay pitcheg_vel2sustain pitcheg_vel2release pitcheg_vel2depth</description>
     </item>
     
     <item>
