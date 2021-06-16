@@ -281,12 +281,9 @@ html {
   position: relative;
   text-align: center
 }
-hr {
-  border: 0
-}
+
 hr::after {
   color: #8f8d89;
-  content: '~~~';
   display: block;
   font-size: 1.5rem;
   position: relative;
