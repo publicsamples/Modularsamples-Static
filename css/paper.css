@@ -58,16 +58,28 @@ h1 {
 .footer-box {
     margin-left: 25%;
  margin-right: 25%;
-background-color: #bbaf5f;  
-color:#f9f8f9 ; 
+background-color: #fbe7fb;  
+color:#000 ; 
 text-align: center;
 }
 
+
+
 .footer-box a{
 
+color:#a99657;
+background-color: #fbe7fb
+}
 
-color:#d8cde8 
 
+.footer-box a:visited {
+	color:#a99657;
+	background-color: #fbe7fb
+}
+
+.footer-box a:hover {
+	color:#a99657;
+	background-color: black;
 }
 
 figcaption,
@@ -78,6 +90,12 @@ main {
   margin-right:5%;
 
 }
+
+iframe {
+  overflow: hidden;
+}
+
+
 figure {
   margin: 1em 40px
 }
@@ -547,6 +565,9 @@ hr::after {
     max-width: 100%
   }
 }
+
+
+
 @media only screen and (min-width:1200px) {
   .lg-1 {
     flex: 0 0 8.33333%;
@@ -703,7 +724,8 @@ h5 {
   font-size: 1rem
 }
 h6 {
-  font-size: .8rem
+  font-size: .7rem;
+  padding:0.3rem;
 }
 .text-left {
   text-align: left
