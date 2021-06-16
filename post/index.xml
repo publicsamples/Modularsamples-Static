@@ -6,9 +6,18 @@
     <description>Recent content in Posts on Modular Samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 May 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Jun 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ULP granular demo</title>
+      <title>Elektronika EM-25 Library now supports  UVI Falcon</title>
+      <link>https://www.modularsamples.com/post/em25forfalcon/</link>
+      <pubDate>Wed, 16 Jun 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://www.modularsamples.com/post/em25forfalcon/</guid>
+      <description>Falcon support for EM-25 Library</description>
+    </item>
+    
+    <item>
+      <title>Untitled Loop project Granular demo</title>
       <link>https://www.modularsamples.com/post/ulp-grainsynth/</link>
       <pubDate>Fri, 28 May 2021 00:08:46 +0100</pubDate>
       
@@ -55,7 +64,7 @@
     <item>
       <title>Lilac jam</title>
       <link>https://www.modularsamples.com/post/lilacjam/</link>
-      <pubDate>Fri, 22 Jan 2021 00:08:46 +0100</pubDate>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://www.modularsamples.com/post/lilacjam/</guid>
       <description>Demo of the free VSTi Lilac.</description>

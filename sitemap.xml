@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.modularsamples.com/post/em25forfalcon/</loc>
+    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/</loc>
+    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/</loc>
+    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
+  </url><url>
     <loc>https://www.modularsamples.com/samples/pd/drones/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/metasynth/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/</loc>
@@ -19,9 +25,6 @@
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/xpanderloop/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/</loc>
-    <lastmod>2021-05-28T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/ulp-grainsynth/</loc>
     <lastmod>2021-05-28T00:08:46+01:00</lastmod>
@@ -87,7 +90,7 @@
     <lastmod>2021-01-30T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/lilacjam/</loc>
-    <lastmod>2021-01-22T00:08:46+01:00</lastmod>
+    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/sfz/</loc>
     <lastmod>2021-01-22T00:08:46+01:00</lastmod>
@@ -233,12 +236,8 @@
     <loc>https://www.modularsamples.com/post/s612demos/</loc>
     <lastmod>2020-03-11T00:08:46+01:00</lastmod>
   </url><url>
-    <loc>https://www.modularsamples.com/sfz/readme/</loc>
-  </url><url>
     <loc>https://www.modularsamples.com/about/</loc>
   </url><url>
     <loc>https://www.modularsamples.com/contact/</loc>
-  </url><url>
-    <loc>https://www.modularsamples.com/sfz/</loc>
   </url>
 </urlset>
