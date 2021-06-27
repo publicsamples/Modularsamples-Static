@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.modularsamples.com/post/em25forfalcon/</loc>
-    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
-  </url><url>
     <loc>https://www.modularsamples.com/</loc>
-    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
+    <lastmod>2021-06-26T00:12:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/</loc>
+    <lastmod>2021-06-26T00:12:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/waveformlibrary/</loc>
+    <lastmod>2021-06-26T00:12:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/taupdate/</loc>
+    <lastmod>2021-06-26T00:08:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/em25forfalcon/</loc>
     <lastmod>2021-06-16T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/drones/</loc>
@@ -32,13 +38,10 @@
     <loc>https://www.modularsamples.com/post/modularmay27/</loc>
     <lastmod>2021-05-27T00:08:46+01:00</lastmod>
   </url><url>
-    <loc>https://www.modularsamples.com/samples/product/waveformlibrary/</loc>
-    <lastmod>2021-05-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.modularsamples.com/samples/product/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.modularsamples.com/samples/product/the-collection/</loc>
+    <loc>https://www.modularsamples.com/samples/product/waveformlibrary/</loc>
     <lastmod>2021-05-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/tags/everything/</loc>
