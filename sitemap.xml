@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.modularsamples.com/post/taupdate/</loc>
-    <lastmod>2021-06-26T00:08:46+01:00</lastmod>
+    <loc>https://www.modularsamples.com/samples/pd/casio-ht700-waveform-library/</loc>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/samples/pd/modular/</loc>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/</loc>
-    <lastmod>2021-06-26T00:08:46+01:00</lastmod>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/samples/pd/</loc>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/samples/</loc>
+    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/modularmay27/</loc>
+    <lastmod>2021-08-12T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/</loc>
+    <lastmod>2021-08-12T00:08:46+01:00</lastmod>
+  </url><url>
+    <loc>https://www.modularsamples.com/post/taupdate/</loc>
     <lastmod>2021-06-26T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/em25forfalcon/</loc>
@@ -20,20 +35,11 @@
     <loc>https://www.modularsamples.com/samples/pd/metasynth/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.modularsamples.com/samples/pd/xpanderloop/</loc>
     <lastmod>2021-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/ulp-grainsynth/</loc>
     <lastmod>2021-05-28T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/modularmay27/</loc>
-    <lastmod>2021-05-27T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/tags/everything/</loc>
     <lastmod>2021-03-26T14:13:21+00:00</lastmod>
@@ -82,9 +88,6 @@
   </url><url>
     <loc>https://www.modularsamples.com/post/retroupdate/</loc>
     <lastmod>2021-02-22T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/modularjan21/</loc>
-    <lastmod>2021-01-30T00:08:46+01:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/post/lilacjam/</loc>
     <lastmod>2021-01-22T00:00:00+00:00</lastmod>
@@ -165,12 +168,6 @@
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/misc-synth-samples/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/modular/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/modular-construction-kit/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.modularsamples.com/samples/pd/moog-animoog-patches/</loc>

@@ -6,7 +6,25 @@
     <description>Recent content in Public Domain on Modular Samples</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 28 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.modularsamples.com/samples/pd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.modularsamples.com/samples/pd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Casio HT-700 Waveform Library</title>
+      <link>https://www.modularsamples.com/samples/pd/casio-ht700-waveform-library/</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/pd/casio-ht700-waveform-library/</guid>
+      <description>Logic Sampler, Kontakt</description>
+    </item>
+    
+    <item>
+      <title>Modular</title>
+      <link>https://www.modularsamples.com/samples/pd/modular/</link>
+      <pubDate>Thu, 12 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.modularsamples.com/samples/pd/modular/</guid>
+      <description>Various modular synths. EXS24, Kontakt, NN-XT.</description>
+    </item>
+    
     <item>
       <title>Drones</title>
       <link>https://www.modularsamples.com/samples/pd/drones/</link>
@@ -257,24 +275,6 @@
       
       <guid>https://www.modularsamples.com/samples/pd/misc-synth-samples/</guid>
       <description>Assorted</description>
-    </item>
-    
-    <item>
-      <title>Modular</title>
-      <link>https://www.modularsamples.com/samples/pd/modular/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.modularsamples.com/samples/pd/modular/</guid>
-      <description>Various modular synths. EXS24, Kontakt, NN-XT.</description>
-    </item>
-    
-    <item>
-      <title>Modular construction kit</title>
-      <link>https://www.modularsamples.com/samples/pd/modular-construction-kit/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.modularsamples.com/samples/pd/modular-construction-kit/</guid>
-      <description>Morphable modular waves</description>
     </item>
     
     <item>
