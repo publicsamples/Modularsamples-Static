@@ -8,21 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Aug 2021 00:08:46 +0100</lastBuildDate><atom:link href="https://www.modularsamples.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>DX-15 Kontakt instrument now available</title>
+      <link>https://www.modularsamples.com/post/dx15/</link>
+      <pubDate>Mon, 16 Aug 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://www.modularsamples.com/post/dx15/</guid>
+      <description>DX-15</description>
+    </item>
+    
+    <item>
       <title>Modular Sample library Update</title>
       <link>https://www.modularsamples.com/post/modularoverhaul/</link>
       <pubDate>Mon, 16 Aug 2021 00:08:46 +0100</pubDate>
       
       <guid>https://www.modularsamples.com/post/modularoverhaul/</guid>
       <description>Big Modular Update</description>
-    </item>
-    
-    <item>
-      <title>Modular Sample library Update</title>
-      <link>https://www.modularsamples.com/post/modularmay27/</link>
-      <pubDate>Thu, 12 Aug 2021 00:08:46 +0100</pubDate>
-      
-      <guid>https://www.modularsamples.com/post/modularmay27/</guid>
-      <description>big</description>
     </item>
     
     <item>
@@ -86,16 +86,6 @@
       
       <guid>https://www.modularsamples.com/post/sfz/</guid>
       <description>It&amp;rsquo;s been bugging me for ages, a public domain sample library should have better support for open formats, right? Well now most libraries have SFZ patches available. In most cases they&amp;rsquo;re not as refined as their EXS and NKI counterparts but the basic mappings are there.</description>
-    </item>
-    
-    <item>
-      <title>Modular Construction Kit</title>
-      <link>https://www.modularsamples.com/post/modularck/</link>
-      <pubDate>Fri, 11 Dec 2020 00:08:46 +0100</pubDate>
-      
-      <guid>https://www.modularsamples.com/post/modularck/</guid>
-      <description>I recently added a library of simple(ish) waveforms from a Eurorack modular. Each wave has been recorded with different filter settings allowing for crossfade modulation and other fancy tricks. Patch files are available in EXS, NKI and SFZ formats.
-Modular Construction Kit</description>
     </item>
     
     <item>

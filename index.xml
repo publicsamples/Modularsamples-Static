@@ -17,6 +17,15 @@
     </item>
     
     <item>
+      <title>DX-15 Kontakt instrument now available</title>
+      <link>https://www.modularsamples.com/post/dx15/</link>
+      <pubDate>Mon, 16 Aug 2021 00:08:46 +0100</pubDate>
+      
+      <guid>https://www.modularsamples.com/post/dx15/</guid>
+      <description>DX-15</description>
+    </item>
+    
+    <item>
       <title>Modular Sample library Update</title>
       <link>https://www.modularsamples.com/post/modularoverhaul/</link>
       <pubDate>Mon, 16 Aug 2021 00:08:46 +0100</pubDate>
@@ -41,15 +50,6 @@
       
       <guid>https://www.modularsamples.com/samples/pd/modular/</guid>
       <description>Various modular synths. EXS24, Kontakt, NN-XT.</description>
-    </item>
-    
-    <item>
-      <title>Modular Sample library Update</title>
-      <link>https://www.modularsamples.com/post/modularmay27/</link>
-      <pubDate>Thu, 12 Aug 2021 00:08:46 +0100</pubDate>
-      
-      <guid>https://www.modularsamples.com/post/modularmay27/</guid>
-      <description>big</description>
     </item>
     
     <item>
@@ -599,16 +599,6 @@
       
       <guid>https://www.modularsamples.com/samples/pd/yamaha-cs30l/</guid>
       <description>Elaborate analogue monosynth. EXS24, Kontakt.</description>
-    </item>
-    
-    <item>
-      <title>Modular Construction Kit</title>
-      <link>https://www.modularsamples.com/post/modularck/</link>
-      <pubDate>Fri, 11 Dec 2020 00:08:46 +0100</pubDate>
-      
-      <guid>https://www.modularsamples.com/post/modularck/</guid>
-      <description>I recently added a library of simple(ish) waveforms from a Eurorack modular. Each wave has been recorded with different filter settings allowing for crossfade modulation and other fancy tricks. Patch files are available in EXS, NKI and SFZ formats.
-Modular Construction Kit</description>
     </item>
     
     <item>
