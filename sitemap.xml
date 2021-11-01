@@ -1,240 +1,191 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://www.modularsamples.com/samples/product/dx-15/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/</loc>
-    <lastmod>2021-09-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/dx15/</loc>
-    <lastmod>2021-08-16T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/modularoverhaul/</loc>
-    <lastmod>2021-08-16T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/</loc>
-    <lastmod>2021-08-16T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/casio-ht700-waveform-library/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/modular/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/</loc>
-    <lastmod>2021-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/taupdate/</loc>
-    <lastmod>2021-06-26T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/em25forfalcon/</loc>
-    <lastmod>2021-06-16T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/drones/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/metasynth/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/xpanderloop/</loc>
-    <lastmod>2021-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/ulp-grainsynth/</loc>
-    <lastmod>2021-05-28T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/tags/everything/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/excessive-hits/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/tags/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/tragic-automata/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/untitled-loop-project/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/tags/usb/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/drive/</loc>
-    <lastmod>2021-03-26T14:13:21+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/product/yamaha-ps2/</loc>
-    <lastmod>2021-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/jomox-xbase-999-editor-for-lemur/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/korg-volca-drum-editor-for-numerology/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/korg-volca-keys-editor-for-numerology/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/lilac-peach/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/</loc>
-    <lastmod>2021-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/microfreak/</loc>
-    <lastmod>2021-03-11T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/retroupdate/</loc>
-    <lastmod>2021-02-22T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/lilacjam/</loc>
-    <lastmod>2021-01-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/sfz/</loc>
-    <lastmod>2021-01-22T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/akai-ax80/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/akai-s612-modular/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/alchemy-sounds-pt1-homunculi/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/arturia-microbrute/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/microfreak/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/behringer-crave/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/casio-ht-700/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/fender-chroma-polaris/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/dsi-tetra/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/elektron-analog-4/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/elektronika-em-25/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/elektronika-em-25-k6/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/ensoniq-esq1/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/former-loops-/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/jen-sx-2000/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/kawai-k3/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/morph-instruments/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-dw-8000/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-minilogue/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-monopoly/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-ms-20-mini/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-volca-construction-kit/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/korg-z1/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/mfb-kraftzwerg/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/misc-synth-samples/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/moog-animoog-patches/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/moog-minitaur/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/novation-ultranova/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/oberheim-xpander-ck/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-alpha-juno/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-hs-80/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-jd-800/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-juno-6/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-jupiter-4/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-jx-3p/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-jx-8p/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-sh-2/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/roland-system-100-construction-kit/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/sequential-max/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/siel-orchestra/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/retro-synth-wavetables/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/pd/yamaha-cs30l/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/samples/tools/fender-chroma-polaris-editor-for-numerology/</loc>
-    <lastmod>2020-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/post/s612demos/</loc>
-    <lastmod>2020-03-11T00:08:46+01:00</lastmod>
-  </url><url>
-    <loc>https://www.modularsamples.com/about/</loc>
-  </url><url>
-    <loc>https://www.modularsamples.com/contact/</loc>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url>
+	<loc>http://modularsamples.com</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>1.0</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/thdx.png</image:loc>
+	<image:title>thdx</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/mf.png</image:loc>
+	<image:title>thdx</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/ulp.jpg</image:loc>
+	<image:title>mf</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/ex.png</image:loc>
+	<image:title>ulp</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/USB.png</image:loc>
+	<image:title>ulp</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/ps2.png</image:loc>
+	<image:title>ulp</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/public-domain/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/1024px-VisualEditor_icon_public-domain.svg.png</image:loc>
+	<image:title>1024px VisualEditor_icon_public-domain</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/GitHub-Mark.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/midi.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/mamam.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/dx-15/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/dx10.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/dx15.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/samps.png</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/microfreak/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301.png</image:loc>
+	<image:title>3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/untitledloopproject/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/4d4cb575366005157970186bb171da8f6b6b8bb857dcdd1f8e93774cc5f0900d.png</image:loc>
+	<image:title>4d4cb575366005157970186bb171da8f6b6b8bb857dcdd1f8e93774cc5f0900d</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/excessivehits/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb.jpeg</image:loc>
+	<image:title>4d4cb575366005157970186bb171da8f6b6b8bb857dcdd1f8e93774cc5f0900d</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/th.png</image:loc>
+	<image:title>th</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/ps2/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/bc9a1a018a7d60eb690da6368045f2ba02d856ca1968edacaf0e6bd3d3d06745.png</image:loc>
+	<image:title>bc9a1a018a7d60eb690da6368045f2ba02d856ca1968edacaf0e6bd3d3d06745</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/usb/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/USB.png</image:loc>
+	<image:title>3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
 </urlset>
