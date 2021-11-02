@@ -18,7 +18,7 @@
 	<image:title>mf</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>http://modularsamples.com/img/ex.png</image:loc>
+	<image:loc>http://modularsamples.com/img/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb.jpeg</image:loc>
 	<image:title>ulp</image:title>
 	</image:image>
 	<image:image>
@@ -179,6 +179,20 @@
 	<image:loc>http://modularsamples.com/img/USB.png</image:loc>
 	<image:title>3298c3eb001bbed90f1d616da66708480096a0a1b6e81bd4f8a2d6e9b831d301</image:title>
 	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
+</url>
+<url>
+	<loc>http://modularsamples.com/demos/</loc>
+	<lastmod>2021-11-01</lastmod>
+	<changefreq>Weekly</changefreq>
+	<priority>0.5</priority>
 	<image:image>
 	<image:loc>http://modularsamples.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
