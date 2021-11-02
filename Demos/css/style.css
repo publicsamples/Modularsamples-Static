@@ -320,7 +320,7 @@ table {
 .dropbtn {
 	background-color: #5d1007;
 	color: #ecd7a1;
-font-size: 1.3rem;
+font-size: 1rem;
 	border: none;
 }
 
@@ -338,13 +338,12 @@ font-size: 1.3rem;
 	
 }
 
-.dropdown-content p {
+.dropdown-content a {
 	background-color: #2e3229;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	color: #ecd7a1;
-	text-decoration: none;
-	display: block;
-	margin-bottom:-5px;
+
+
 	
 	
 }
@@ -355,7 +354,7 @@ font-size: 1.3rem;
 	color: #fff;
 	text-decoration: none;
 	display: block;
-	 padding: 1px;
+	 padding: 0px;
 
 
 }
