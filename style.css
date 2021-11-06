@@ -88,6 +88,10 @@ a:hover{text-decoration: none; cursor:pointer;}
 	border-top:1px solid rgba(0,0,0,.1);
 	border-bottom:1px solid rgba(0,0,0,.1);
 }
+.b-divider-dashed{
+	border-top:1px dashed rgba(0,0,0,.1);
+	border-bottom:1px dashed rgba(0,0,0,.1);
+}
 
 
 /* = NavBar

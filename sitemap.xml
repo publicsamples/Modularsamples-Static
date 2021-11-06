@@ -69,7 +69,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/dx-15/</loc>
+	<loc>http://modularsamples.com/dx-15-for-kontakt/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -95,7 +95,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/microfreak/</loc>
+	<loc>http://modularsamples.com/artuira-microfreak-patch-collection/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -113,7 +113,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/untitledloopproject/</loc>
+	<loc>http://modularsamples.com/untitled-loop-project/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -131,7 +131,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/excessivehits/</loc>
+	<loc>http://modularsamples.com/excessive-hits-one-shot-sample-library/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -153,7 +153,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/ps2/</loc>
+	<loc>http://modularsamples.com/yamaha-ps-2/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -171,7 +171,7 @@
 	</image:image>
 </url>
 <url>
-	<loc>http://modularsamples.com/usb/</loc>
+	<loc>http://modularsamples.com/sample-library-on-usb-drive/</loc>
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
@@ -193,6 +193,10 @@
 	<lastmod>2021-11-06</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
+	<image:image>
+	<image:loc>http://modularsamples.com/img/USB.png</image:loc>
+	<image:title>USB</image:title>
+	</image:image>
 	<image:image>
 	<image:loc>http://modularsamples.com/img/</image:loc>
 	<image:title>Twitter Social Card Image</image:title>

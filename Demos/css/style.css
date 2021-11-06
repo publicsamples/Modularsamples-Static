@@ -179,7 +179,7 @@ margin-right:1rem;
 
 .main {
 	background-color: #32546d;
-	padding-top:2.5rem;
+	padding-top:1.5rem;
 			padding-bottom:4.5rem;
 
 
@@ -200,7 +200,11 @@ margin-right:1rem;
 	
 }
 
-
+.seq {
+	background-color: #87a28c;
+	padding: 1rem;
+	
+}
 
 .dropdown-content h3 {
 	background-color: #1f214c;
