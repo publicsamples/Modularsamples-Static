@@ -12,42 +12,76 @@
 	</script>
 	<script src="https://cdn.jsdelivr.net/npm/webmidi">
 	</script>
-		<title>Akai AX-80</title>
-	</head>
-	<body onload="move(); loadJS('/Demos/presets/ax80/file2.js');">
-	<div class="content">
 		
-<table style="width:100%">
-  
-  <tr>
-    <td><h5 class="text-align-center">BPM</h5>
-					<div class="text-align-center" id="tempo"></div>
-					<h5 class="text-align-center">Volume</h5>
-					<div class="text-align-center" id="vol"></div>
-					<h5 class="text-align-center">Attack</h5>
-					<div class="text-align-center" id="attack"></div>
-					<h5 class="text-align-center">Release</h5>
-					<div class="text-align-center" id="release"></div>
-					<h5 class="text-align-center">Chorus</h5>
-					<div class="text-align-center" id="cwet"></div>
-					<h5 class="text-align-center">Speed</h5>
-					<div class="text-align-center" id="cfreq"></div>
-					<h5 class="text-align-center">Delay</h5>
-					<div class="text-align-center" id="dwet"></div>
-					<h5 class="text-align-center">Time</h5>
-					<div class="text-align-center" id="dtime"></div>
-					<h5 class="text-align-center">Reverb</h5>
-					<div class="text-align-center" id="rwet"></div></td>
- 
-  <td>
+	</head>
+		<body onload="move(); loadJS('/Demos/presets/ax80/file2.js');">
+		
+			<div class="main">
+
+		 <div class="bg">	
+
+	<div class="content">
+			
+				<div class="grid-patch">
+					<div class="grid-item1">
+						
+
+							<div class="slist">
+								<h2>Akai AX-80</h2>
+										<h3>Sample Libraries</h3>
+								<ul>
+						<li><a href="AlchemyDistillation.html">Alchemy: Distilation 1</a></li><li><a href="ArturiaMicrobrute.html">Arturia Microbrute</a></li><li><a href="ax80.html">Akai AX-80</a></li><li><a href="s612.html">Akai S612</a></li>
+						<li><a href="dsitetra.html">Dave Smith Tetra</a></li><li><a href="a4.html">Elektron Analog 4</a></li><li><a href="em25.html">Elektronika EM-25</a></li><li><a href="esq1.html">Ensoniq ESQ1</a></li><li><a href="chroma.html">Fender Chroma Polaris</a></li><li><a href="formerloops.html">Former Loops</a></li><li><a href="jx8.html">Roland JX-8p</a></li><li><a href="k3.html">Kawai K3</a></li><li><a href="dw8000.html">Korg DW-8000</a></li><li><a href="z1.html">Korg Z1</a></li><li><a href="monopoly.html">Korg Mono/poly</a></li><li><a href="morph.html">Kontakt Morph instruments</a></li><li><a href="minitaur.html">Moog Minitaur</a></li><li><a href="misc1.html">Misc 1</a></li><li><a href="misc2.html">Misc 2</a></li><li><a href="modular.html">Modular</a></li><li><a href="modularhits.html">Modular Hits</a></li><li><a href="kraftzwerg.html">MFB Kraftzweg</a></li><li><a href="nova.html">Novation Ultranova</a></li><li><a href="xp.html">Oberheim Xpander</a></li><li><a href="retrotables.html">Retrosynth Wavetables</a></li><li><a href="aj.html">Roland Alpha Juno</a></li><li><a href="jd800.html">Roland JD800</a></li><li><a href="jp4.html">Roland Jupiter 4</a></li><li><a href="juno6.html">Roland Juno 6</a></li><li><a href="jx3p.html">Roland JX-3P</a></li><li><a href="sh2.html">Roland SH-2</a></li><li><a href="sys101.html">Roland System 101</a></li><li><a href="max.html">Sequential Circuits MAX</a></li><li><a href="synthhits.html">Synth Drums</a></li><li><a href="cs30.html">Yamaha CS30L</a></li>
+		</ul>
+						
+						</div>
+					</div>
+		<div class="grid-patch">
+			<div class="grid-item2">
+				
+
+				
+	<div class="controls">	
+			<h5 class="text-align-center">BPM</h5>
+						<div class="text-align-center" id="tempo"></div>
+						<h5 class="text-align-center">Volume</h5>
+						<div class="text-align-center" id="vol"></div>
+						<h5 class="text-align-center">Attack</h5>
+						<div class="text-align-center" id="attack"></div>
+						<h5 class="text-align-center">Release</h5>
+						<div class="text-align-center" id="release"></div>
+						<h5 class="text-align-center">Chorus</h5>
+						<div class="text-align-center" id="cwet"></div>
+						<h5 class="text-align-center">Speed</h5>
+						<div class="text-align-center" id="cfreq"></div>
+						<h5 class="text-align-center">Delay</h5>
+						<div class="text-align-center" id="dwet"></div>
+						<h5 class="text-align-center">Time</h5>
+						<div class="text-align-center" id="dtime"></div>
+						<h5 class="text-align-center">Reverb</h5>
+						<div class="text-align-center" id="rwet"></div>
+							</div>
+						</div>
+					
+						
 	
+<table style="width:100%">
+	
+
+  <tr>
+    
+  <td class="main">
+
+
+
 	  <label class="switch">
+		  
 			<input type="checkbox" checked>
 							  <span class="slider round"></span>
 							</label>
 			
 							<div class="grid-patch">
-								<div class="grid-item2">
+								<div class="grid-item3">
 									<div class="dropdown">
 										<button class="dropbtn">Patches</button>
 										<div class="dropdown-content">
@@ -76,13 +110,16 @@
 									</div>
 								</div>
 								
+								
 								<div class="grid-item2">
 									<div id="myProgress">
 										<div id="myBar"></div>
 									</div>
 								</div>
-							</div>
+							</div>  		
 							       <p>Use your keyboard, MIDI device (Chrome only) or the sequencer below to play the sounds on this page. Select a different sample by clicking on the Patch button above.</p>
+	
+	   						
 							<script>
 							    var i = 0;
 							    function move() {
@@ -103,30 +140,9 @@
 							      }
 							    }
 							</script> 
-						</div>
-					</div>
+				
 					
-		
-			<div class="number-grid">
-
-			
-						<div class="gnum">1</div>
-						<div class="gnum">2</div>
-						<div class="gnum">3</div>
-						<div class="gnum">4</div>
-						<div class="gnum">5</div>
-						<div class="gnum">6</div>
-						<div class="gnum">7</div>
-						<div class="gnum">8</div>
-						<div class="gnum">9</div>
-						<div class="gnum">10</div>
-						<div class="gnum">11</div>
-						<div class="gnum">12</div>
-						<div class="gnum">13</div>
-						<div class="gnum">14</div>
-						<div class="gnum">15</div>
-						<div class="gnum">16</div>
-				</div>
+	
 
 	
 			<tone-step-sequencer id="seq1"></tone-step-sequencer>
@@ -136,11 +152,12 @@
   
 </table>
 
-
+</div></div>
 						
 </div>
 					
-			
+
+			</body>
 					
 						<script type="text/javascript">
 
@@ -432,5 +449,4 @@
 
 						</script>
 
-</body>
 </html>

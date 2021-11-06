@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');.text-primary {
-  color: #f4f2de
+  color: #41403e
 }
 .content {
   width: 100%;
@@ -9,24 +9,36 @@
   box-sizing: border-box; 
   padding:10px;
   }
+#myProgress {
+  width: 100%;
+  background-color: #ED6355 ;
 
+#myProgress {
+  width: 100%;
+  background-color: #ED6355 ;
+   margin-top:1em; 
+}
 
 h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0em;
+	margin-top: 0em;
 	    font-family: 'Nunito';
     font-weight: bold;
     color: black;
-
+	margin: 1em;
 }
 body  {
     font-family: 'Nunito';
     font-size: 1rem;
-    line-height: 1.4;
     font-variant-ligatures: common-ligatures;
- color: #f4f2de;
-    
+ color: #000;
+   	margin: 1em; 
 }
+p  {
 
+ color: #000;
+
+}
 
 
 #myBar {
@@ -37,27 +49,14 @@ body  {
 
 .grid-patch {
   display: grid;
-  grid-template-columns: 25% 75% ;
+  grid-template-columns: 25% 65% ;
 }
 
 tone-play-toggle{
 
- color: blue;
-    padding-top: 1.4em;
+ color: #000;
+
 	margin-left:5%;
-	
-}
-
-tone-step-sequencer{
-
-	 padding-bottom: 2.4em;
-
-	
-}
-
-.seq #container {
-  background-color: #30450a;
-
 	
 }
 
@@ -87,28 +86,12 @@ tone-step-sequencer{
 
 /* Tables
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-th,
-td {
-  padding: 0px 14px;
-  text-align: left;
-  font-size:0.8rem;
-   }
-th:first-child,
-td:first-child {
-}
-th:last-child,
-td:last-child {
- }
-  
-table {
-  padding: 1.1em;
 
-  }
   
 .dropbtn {
-	background-color: #1f214c;
-	color: #f4f2de;
-font-size: 1rem;
+	background-color: #ccc;
+	color: #ecd7a1;
+font-size: 1.3rem;
 	border: none;
 }
 
@@ -123,114 +106,113 @@ font-size: 1rem;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;
+	color: #ccc;
 	
 }
 
-.dropdown-content a {
-	background-color: #1f214c;
-	font-size: 0.7rem;
-	color: #ecd7a1;
+.slist  {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	font-color: #ccc;
 	
 }
 
 .dropdown-content p {
-	background-color: #1f214c;
-	font-size: 0.7rem;
-	color: #ecd7a1;
-	
-}
-
-.slist {
-	background-color: #df9b67;
-	padding: 0.8rem;
-	margin-right:1rem;
-	
-}
-.slist a {
-	background-color: #df9b67;
 	font-size: 0.8rem;
-	color: #1f214c;
+	color: #ccc;
+	text-decoration: none;
+	display: block;
+	margin-bottom:-5px;
+	
 	
 }
-
-.slist h3 {
-
-	font-size: 0.9rem;
-	color: #fff;
-	
-}
-
-.slist li{
-margin-bottom: -0.1rem;
-margin-left: -0.7rem;
-
-	
-}
-
-.controls {
-	background-color: #dd3b18;
-	margin-left:1rem;
-	padding-left:3rem;
-		padding-top:1.5rem;
-				padding-bottom:4.5rem;
-margin-right:1rem;
-
-}
-
-.main {
-	background-color: #32546d;
-	padding-top:2.5rem;
-			padding-bottom:4.5rem;
-
-
-
-}
-
-.bg {
-	background-color: #1f214c;
-	padding: 1rem;
-	
-}
-
-.other {
-	background-color: #87a28c;
-	padding: 1rem;
-
-	margin-left:1rem;
-	
-}
-
-
 
 .dropdown-content h3 {
-	background-color: #1f214c;
+	background-color: none;
 	font-size: 0.8rem;
 	color: #fff;
 	text-decoration: none;
 	display: block;
-	 padding: 0px;
+	 padding: 1px;
 
 
 }
 
+.slist ul {
+	background-color: #2e3229;
+	font-size: 0.8rem;
+	color: #ecd7a1;
+	text-decoration: none;
+	display: block;
+	margin-bottom:-5px;
+	
+	
+}
 
+.slist li {
+	background-color: none;
+	font-size: 0.8rem;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	 padding: 1px;
+
+
+}
+
+.slist a {
+	background-color: none;
+	font-size: 0.8rem;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	 padding: 1px;
+
+
+}
+
+.dropdown-content p {
+	color: #fff;
+}
 .dropdown-content p:hover {
-	background-color: #1f214c;
+	background-color: #cc820f;
 }
 
 .dropdown-content h3:hover {
-	background-color: #1f214c;
+	background-color: #cc820f;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
-	background-color: #1f214c;
+	background-color: #2e3229;
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #df9b67;
+	background-color: #2e3229;
 }
  
+
+
+
+ 
+
+
+
+#block-keys {
+     color:white;
+
+}
+
+
+
+
+#block-fat {
+ padding: 1px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -290,4 +272,5 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
 }

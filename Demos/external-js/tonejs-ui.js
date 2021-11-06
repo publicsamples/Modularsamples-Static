@@ -1409,7 +1409,7 @@ function g(t){return"slot"===t.localName}class y{static getFlattenedNodes(t){ret
 					width: 100%;
 					height: 100%;
 					display: flex;
-					background-color: #ccc;
+					background-color: #e9d67e;
 				}
 				.column {
 					flex: 1;
@@ -1430,18 +1430,18 @@ function g(t){return"slot"===t.localName}class y{static getFlattenedNodes(t){ret
 				}
 
 				.column.highlight .row.filled{
-					background-color: #b88111;
+					background-color: ##1f214c;
 				}
 
 				.row {
 					flex: 1;
 					margin: 1px;
-					background-color: #fff;
+					background-color: #fff5c6;
 					transition: background-color 0s;
 				}
 
 				.row.filled {
-				background-color: #000;
+				background-color: #1f214c;
 				}
 				
 			</style>
