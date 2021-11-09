@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>http://modularsamples.com</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
-	<image:loc>http://modularsamples.com/img/thdx.png</image:loc>
+	<image:loc>http://modularsamples.com/img/msdx.png</image:loc>
 	<image:title>thdx</image:title>
 	</image:image>
 	<image:image>
@@ -18,7 +18,7 @@
 	<image:title>mf</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>http://modularsamples.com/img/baaca0eb0e33dc4f9d45910b8c86623f0144cea0fe0c2093c546d17d535752eb.jpeg</image:loc>
+	<image:loc>http://modularsamples.com/img/ex2.png</image:loc>
 	<image:title>ulp</image:title>
 	</image:image>
 	<image:image>
@@ -40,7 +40,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/public-domain/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -70,7 +70,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/dx-15-for-kontakt/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -96,7 +96,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/artuira-microfreak-patch-collection/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -114,7 +114,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/untitled-loop-project/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -132,7 +132,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/excessive-hits-one-shot-sample-library/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -154,7 +154,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/yamaha-ps-2/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -172,7 +172,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/sample-library-on-usb-drive/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -190,7 +190,7 @@
 </url>
 <url>
 	<loc>http://modularsamples.com/pd-demos/</loc>
-	<lastmod>2021-11-06</lastmod>
+	<lastmod>2021-11-09</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
