@@ -275,6 +275,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h3-usb-drives-style{
 	font-size:27px;
+	line-height:24px;
 }
 .p-bloc-12-style{
 	font-size:18px;
@@ -296,6 +297,21 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-11-style{
 	width:210px;
 	height:210px;
+}
+.h3-6-style{
+	line-height:24px;
+}
+.h3-excessive-hits-style{
+	line-height:24px;
+}
+.h3-dx-15-style{
+	line-height:24px;
+}
+.h3-2-style{
+	line-height:24px;
+}
+.h3-bloc-4-style{
+	line-height:24px;
 }
 
 /* = Colour
