@@ -179,6 +179,10 @@ button{
 .img-rd-lg{
 	border-radius:34px;
 }
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
 
 
 
