@@ -1,5 +1,3 @@
-						<script type="text/javascript">
-
 var i = 0;
 function move() {
   if (i == 0) {
@@ -301,8 +299,3 @@ function move() {
 						  });
 
 						  // Enable WebMidi.js
-
-
-
-
-						</script>
