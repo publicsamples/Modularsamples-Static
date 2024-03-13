@@ -1,7 +1,4 @@
-<!DOCTYPE html
-	
-	
-	>
+<!DOCTYPE html>
 <html>
 <head>
 <link rel="stylesheet" href="../css/style.css" />
@@ -13,7 +10,9 @@
 	</script>
 	<script src="../external-js/NexusUI.js" type="text/javascript">
 	</script>
+    <script src="https://cdn.jsdelivr.net/npm/webmidi@latest/dist/iife/webmidi.iife.js"></script>
 
+		
 	</head>
 		<body onload="move(); loadJS('/Demos/presets/ax80/file2.js');">
 		
@@ -175,7 +174,52 @@
 
 
 
-					
+						  var midi = {};
+
+						  WebMidi.enable(function (err) {
+
+						      if (err) {
+						        console.log("WebMidi could not be enabled.", err);
+						        return;
+						      } else {
+						        console.log("WebMidi enabled!");
+						        console.log(WebMidi.inputs);
+						           console.log(WebMidi.outputs);
+						      }
+
+						      WebMidi.inputs.forEach((o) => {
+						        console.log(o.name)
+
+						      o.addListener('noteon', "all", function (e) {
+						 
+						        console.log(e)
+
+						          let octave = parseInt(e.note.octave);
+						          let note = e.note.name + octave;
+						        console.log(note)
+
+						          if (!(note in midi)) {
+						     
+						              console.log(keys)
+						              keys.triggerAttack(note, Tone.context.currentTime + 0.01, e.velocity);
+						              midi[note] = keys;
+						          }
+						      });
+
+						          o.addListener('noteoff', "all", function (e) {
+						              let octave = parseInt(e.note.octave);
+						              let note = e.note.name + octave;
+						              let keys = midi[note];
+
+						              if (keys) {
+						                  keys.triggerRelease(note, undefined, e.velocity);
+						                  delete midi[note];
+						              }
+						          });
+						      });
+
+						  });
+
 
 
 
