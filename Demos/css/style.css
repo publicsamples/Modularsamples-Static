@@ -27,7 +27,16 @@ body  {
     
 }
 
+#container {
+  overflow: hidden;
+  width: 100%;
+}
 
+#inner {
+  overflow: hidden;
+  width: 100%;
+   height: 100%;
+}
 
 #myBar {
   width: 1%;
@@ -53,6 +62,19 @@ tone-step-sequencer{
 	 padding-bottom: 2.4em;
 
 	
+}
+
+.child {
+  float: left;
+
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+
+.child p {
+padding-bottom: 25px;
 }
 
 .seq #container {
