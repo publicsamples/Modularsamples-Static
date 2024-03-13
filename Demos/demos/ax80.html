@@ -175,52 +175,7 @@
 
 
 
-						  var midi = {};
-
-						  WebMidi.enable(function (err) {
-
-						      if (err) {
-						        console.log("WebMidi could not be enabled.", err);
-						        return;
-						      } else {
-						        console.log("WebMidi enabled!");
-						        console.log(WebMidi.inputs);
-						           console.log(WebMidi.outputs);
-						      }
-
-						      WebMidi.inputs.forEach((o) => {
-						        console.log(o.name)
-
-						      o.addListener('noteon', "all", function (e) {
-						 
-						        console.log(e)
-
-						          let octave = parseInt(e.note.octave);
-						          let note = e.note.name + octave;
-						        console.log(note)
-
-						          if (!(note in midi)) {
-						     
-						              console.log(keys)
-						              keys.triggerAttack(note, Tone.context.currentTime + 0.01, e.velocity);
-						              midi[note] = keys;
-						          }
-						      });
-
-						          o.addListener('noteoff', "all", function (e) {
-						              let octave = parseInt(e.note.octave);
-						              let note = e.note.name + octave;
-						              let keys = midi[note];
-
-						              if (keys) {
-						                  keys.triggerRelease(note, undefined, e.velocity);
-						                  delete midi[note];
-						              }
-						          });
-						      });
-
-						  });
-
+					
 
 
 
