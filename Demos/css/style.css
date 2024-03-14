@@ -11,7 +11,7 @@
   }
 
   .top {  display: grid;
-    grid-template-columns: 500px 100px;
+    grid-template-columns: 100px 500px;
     grid-template-rows: 50px;
     gap: 5px 5px;
     grid-auto-flow: row;
