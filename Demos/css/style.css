@@ -118,13 +118,6 @@ tone-play-toggle{
 }
 
 
-
-
-
-.child p {
-padding-bottom: 25px;
-}
-
 .seqcont {
 
   width:50%;
@@ -272,7 +265,7 @@ margin-left: -0.7rem;
 .dropdown-content h3 {
 	background-color: #1f214c;
 	font-size: 0.8rem;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
 	display: block;
 	 padding: 0px;
@@ -282,11 +275,11 @@ margin-left: -0.7rem;
 
 
 .dropdown-content p:hover {
-	background-color: #1f214c;
+	background-color: #ccc;
 }
 
 .dropdown-content h3:hover {
-	background-color: #1f214c;
+	background-color: #ccc;
 }
 
 .dropdown:hover .dropdown-content {
@@ -295,7 +288,7 @@ margin-left: -0.7rem;
 }
 
 .dropdown:hover .dropbtn {
-	background-color: #df9b67;
+	background-color: #fff;
 }
  
 .switch {
