@@ -2,16 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');.text-primary {
   color: #f4f2de
 }
-.content {
-  width: 100%;
-  max-width: 900px;
-  margin: 0 auto;
-  box-sizing: border-box; 
-  padding:10px;
-  }
 
   .top {  display: grid;
-    grid-template-columns: 100px 500px;
+    grid-template-columns: 100px 350px;
     grid-template-rows: 50px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -23,9 +16,8 @@
   .power { grid-area: power; }
 
   .mid {  display: grid;
-    grid-template-columns: 200px 400px;
-    grid-template-rows: 50px;
-
+    grid-template-columns: 50px 400px;
+ 
     grid-auto-flow: row;
     grid-template-areas:
       "patches loading";
@@ -33,13 +25,15 @@
 
   .patches { grid-area: patches; }
 
-  .loading { grid-area: loading; }
+  .loading { grid-area: loading; 
+  }
+  
 
 
   
   .cont {  display: grid;
-    grid-template-columns: 350px 250px;
-    grid-auto-rows: 100px;
+    grid-template-columns: 250px 200px;
+    grid-auto-rows: 80px;
 
     grid-auto-flow: row;
     grid-template-areas:
@@ -48,13 +42,13 @@
   }
 
   .controls {  display: grid;
-    grid-template-columns: 38.18px 38.8px 38.8px 38.8px 38.8px 38.8px 38.8px 38.8px 38.8px;
+    grid-template-columns: 32.14px 32.14px 32.14px 32.14px 32.14px 32.14px 32.14px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "c1 c2 c3 c4 c5 c6 c7 c8 c9";
+      "c1 c2 c3 c4 c5 c6 c7";
     grid-area: controls;
-	padding-left:30px;
+
   }
 
   .c1 { grid-area: c1; }
@@ -64,20 +58,29 @@
   .c5 { grid-area: c5; }
   .c6 { grid-area: c6; }
   .c7 { grid-area: c7; }
-  .c8 { grid-area: c8; }
-  .c9 { grid-area: c9; }
+
   
-  .c1, .c2, , .c3, .c4,.c5,.c6,.c7,.c8 p {
+  .controls p {
 	  margin-top:10px;
+	  font-size: 10px;
+	  padding-left:5px;
 	
   }
 
-  .seq { grid-area: seq; margin-top:15px; }
+  .seq { grid-area: seq; margin-top:5px; }
+
+
+  #seq1 {
+  	height:220px;
+ background-color: #32546d;
+	
+  }
+  
 
   .text { grid-area: text;
-	  width:300px;
+	  width:225px;
 	  padding-top:100px;
-	  padding-left:30px;
+
    }
   
 
@@ -95,7 +98,9 @@ body  {
     font-variant-ligatures: common-ligatures;
  color: #f4f2de;
  background-color: #32546d;
-    
+ padding:10px;   
+	
+	
 }
 
 #container {
@@ -104,14 +109,14 @@ body  {
 }
 
 .textblk {
-  width:300px;
+  width:225px;
+  padding-left:5px;
 
-  padding-left:30px;
  }
 
 tone-play-toggle{
 
- color: blue;
+ color: #32546d;
     padding-top: 1.4em;
 	margin-left:5%;
 	
@@ -248,19 +253,9 @@ margin-left: -0.7rem;
 	
 }
 
-.other {
-	background-color: #87a28c;
-	padding: 1rem;
 
-	margin-left:1rem;
-	
-}
 
-.seq {
-	background-color: #87a28c;
 
-	
-}
 
 .dropdown-content h3 {
 	background-color: #1f214c;
@@ -290,6 +285,8 @@ margin-left: -0.7rem;
 .dropdown:hover .dropbtn {
 	background-color: #fff;
 }
+
+
  
 .switch {
   position: relative;
@@ -350,4 +347,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+#myBar {
+  width: 1%;
+  height: 23px;
+  background-color: #30450a;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ED6355 ;
+
 }

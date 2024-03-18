@@ -594,11 +594,13 @@ function g(t){return"slot"===t.localName}class y{static getFlattenedNodes(t){ret
 					background-color: #182C40;
 				}
 
+//button style
+
 				button {
 					box-sizing: border-box;
 					width: 100%;
 					height: 44px;
-					background-color: #fff;
+					background-color: red;
 					outline-color: var(--outline-color);
 					border: 2px solid black;
 					border-radius: 22px;

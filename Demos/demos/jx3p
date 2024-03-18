@@ -17,8 +17,7 @@
 		
 			<body onload="move(); loadJS('/Demos/presets/jx3p/file1.js');">
 				
-				<div class="top">
-				  <div class="title">
+				<div class="mid">
 		  <div class="patches"><div class="dropdown">
 		<button class="dropbtn">Patches</button>
     <div class="dropdown-content">
