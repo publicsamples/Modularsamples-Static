@@ -11,7 +11,7 @@ var keys = new Tone.Sampler({
 				
 					}, {
 
-						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Arturia-Microbrute/master/MP3/DynamicSaw/"
+						"baseUrl" : "https://raw.githubusercontent.com/publicsamples/Arturia-Microbrute/master/MP3/ThePubeinyourcoffee/"
 					})					.connect(filter);
 					
 				
