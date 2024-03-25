@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html  lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>/* cyrillic-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidh18Smxg.woff2) format('woff2');  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}/* cyrillic */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkido18Smxg.woff2) format('woff2');  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}/* greek-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidg18Smxg.woff2) format('woff2');  unicode-range: U+1F00-1FFF;}/* greek */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidv18Smxg.woff2) format('woff2');  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}/* vietnamese */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidj18Smxg.woff2) format('woff2');  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}/* latin-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkidi18Smxg.woff2) format('woff2');  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}/* latin */@font-face {  font-family: 'Source Sans Pro';  font-style: italic;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKwdSBYKcSV-LCoeQqfX1RYOo3qPZZMkids18Q.woff2) format('woff2');  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}/* cyrillic-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmhduz8A.woff2) format('woff2');  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}/* cyrillic */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwkxduz8A.woff2) format('woff2');  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}/* greek-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmxduz8A.woff2) format('woff2');  unicode-range: U+1F00-1FFF;}/* greek */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlBduz8A.woff2) format('woff2');  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}/* vietnamese */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmBduz8A.woff2) format('woff2');  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}/* latin-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwmRduz8A.woff2) format('woff2');  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}/* latin */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 300;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xKydSBYKcSV-LCoeQqfX1RYOo3ik4zwlxdu.woff2) format('woff2');  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}/* cyrillic-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNa7lqDY.woff2) format('woff2');  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;}/* cyrillic */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qPK7lqDY.woff2) format('woff2');  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;}/* greek-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNK7lqDY.woff2) format('woff2');  unicode-range: U+1F00-1FFF;}/* greek */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qO67lqDY.woff2) format('woff2');  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;}/* vietnamese */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qN67lqDY.woff2) format('woff2');  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;}/* latin-ext */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qNq7lqDY.woff2) format('woff2');  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;}/* latin */@font-face {  font-family: 'Source Sans Pro';  font-style: normal;  font-weight: 400;  font-display: swap;  src: url(/sites/default/files/dxpr_theme/fonts/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;}</style>
+<link rel="icon" href="/themes/contrib/dxpr_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="alternate" type="application/rss+xml" title="Sample Libraries" href="http://default/rss.xml" />
+
+    <title>Sample Libraries | Modularsamples</title>
+    <style>ul.dropdown-menu {display: none;}</style>
+    <link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/ajax-progress.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/align.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/autocomplete-loading.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/fieldgroup.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/container-inline.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/clearfix.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/details.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/hidden.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/item-list.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/js.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/nowrap.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/position-container.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/progress.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/reset-appearance.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/resize.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/sticky-header.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-counter.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-counters.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/system-status-report-general-info.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tabledrag.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tablesort.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/system/components/tree-child.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/views/views.module.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/core/themes/stable9/css/core/assets/vendor/normalize-css/normalize.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/action-links.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/breadcrumb.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/container-inline.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/details.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/exposed-filters.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/field.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/form.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/icons.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/inline-form.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/item-list.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/links.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/menu.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/more-link.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/pager.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tabledrag.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tableselect.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/tablesort.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/textarea.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/ui-dialog.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/components/messages.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/dxpr_theme/css/dxpr-theme.admin.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/themes/contrib/bootstrap5/css/style.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/drupal-pager.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/dxpr-theme-header.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/dxpr-theme-header--top.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/dxpr-theme-header--mobile.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/bootstrap-3.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/bootstrap-theme.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/jquery-ui.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/forms.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/layout.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/page-title.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/typography.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/dxpr-theme-header--side.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/drupal-webform.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/dxpr-theme-builder.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/color/dxpr_theme-237fce65/helper-classes.css?saxb9h" />
+<link rel="stylesheet" media="all" href="/sites/default/files/dxpr_theme/css/themesettings-dxpr_theme.css?saxb9h" />
+
+    <script src="/themes/contrib/dxpr_theme/vendor/modernizr-custom-d8-dxpr-theme.js?v=3.11.7"></script>
+
+  </head>
+  <body class="html path-samplelibraries body--dxpr-theme-header-top body--dxpr-theme-header-not-overlay body--dxpr-theme-header-normal">
+    <script>
+  var dxpr_themeNavBreakpoint = 1200;
+  var dxpr_themeWindowWidth = window.innerWidth;
+  if (dxpr_themeWindowWidth > dxpr_themeNavBreakpoint) {
+    document.body.className += ' body--dxpr-theme-nav-desktop';
+  }
+  else {
+    document.body.className += ' body--dxpr-theme-nav-mobile';
+  }
+  </script>
+    <a href="#main-content" class="visually-hidden focusable skip-link">
+      Skip to main content
+    </a>
+    
+          <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="dxpr-theme-boxed-container">
+
+
+                                          
+    <header class="navbar navbar dxpr-theme-header clearfix dxpr-theme-header--top dxpr-theme-header--normal dxpr-theme-header--hover-opacity dxpr-theme-header--sticky" id="navbar" role="banner" data-spy="affix" data-offset-top="60">
+            <div class="container navbar-container">
+                  <div class="row container-row"><div class="col-sm-12 container-col">
+                <div class="navbar-header">
+            <div class="region region-navigation">
+        <div class="wrap-branding">
+          <a class="name navbar-brand" href="/" title="Home" rel="home">Modularsamples</a>
+      </div>
+  
+  </div>
+
+                                <a id="dxpr-theme-menu-toggle" href="#" class="three-dash"><span></span><div class="screenreader-text visually-hidden">Toggle menu</div></a>
+                  </div>
+
+                            <nav role="navigation" id="dxpr-theme-main-menu" class="dxpr-theme-main-menu ">
+              <div class="region region-navigation-collapsible">
+                                                                
+<section id="block-dxpr-theme-mainnavigation-2" class="block block-system block-system-menu-blockmain clearfix">
+  
+          
+
+      
+              <ul data-block="navigation_collapsible" class="menu nav navbar-nav">
+                            <li class="expanded dropdown">
+        <a href="/node" class="parent_link" data-drupal-link-system-path="node">News</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/SynthPlugins" class="parent_link" data-drupal-link-system-path="SynthPlugins">Instruments</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/FXPlugins" class="parent_link" data-drupal-link-system-path="FXPlugins">FX Plugins</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/SynthPresets" class="parent_link" data-drupal-link-system-path="SynthPresets">Synth Presets</a>
+                  </li>
+                        <li class="expanded dropdown">
+        <a href="/SampleLibraries" class="parent_link" data-drupal-link-system-path="SampleLibraries">Sample Libraries</a>
+                  </li>
+        </ul>
+  
+
+
+  </section>
+
+  </div>
+
+            </nav>
+                          </div></div>
+              </div>
+    </header>
+  
+<div class="wrap-containers">
+
+
+
+        <div class="page-title-full-width-container" id="page-title-full-width-container">
+          <header role="banner" id="page-title" class="container page-title-container">
+                                                                                                          
+        
+
+    
+    <h1 class="page-title">Sample Libraries</h1>
+
+
+                                                                                                
+        
+
+    
+
+
+      </header>
+    </div>
+  
+
+    <div role="main" class="main-container container js-quickedit-main-content clearfix">
+        <div class="row">
+                
+                          
+      <section class="col-sm-9">
+
+                
+                                      
+                  
+                          <a id="main-content"></a>
+            <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>
+                                                            <section id="block-dxpr-theme-content" class="block block-system block-system-main-block clearfix">
+  
+          
+
+      <div class="views-element-container"><div class="view view-sample-libraries view-id-sample_libraries view-display-id-page_1 js-view-dom-id-3acb6bc4a9b51969dd7d59be845fb333da4c77cd1afac1be978ae5b70abb513f">
+  
+    
+      
+      <div class="view-content">
+          <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/moog-minitaur-construction-kit" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Moog MiniTaur Construction Kit</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/moog-minitaur-construction-kit"><img src="/sites/default/files/inline-images/mt.jpg" data-entity-uuid="f5623f41-0256-4f0b-ade5-ef557a854644" data-entity-type="file" alt="Moog Minitaur" width="600" height="444" loading="lazy" /></a></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/moog-minitaur-construction-kit" rel="tag" title="Moog MiniTaur Construction Kit" hreflang="en">Read more<span class="visually-hidden"> about Moog MiniTaur Construction Kit</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/arturia-microbrute" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Arturia Microbrute</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/arturia-microbrute"><img src="/sites/default/files/inline-images/micro.jpg" data-entity-uuid="94d98998-3ea1-4266-8efc-55cf3b0dcd67" data-entity-type="file" width="600" height="429" loading="lazy" /></a></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/arturia-microbrute" rel="tag" title="Arturia Microbrute" hreflang="en">Read more<span class="visually-hidden"> about Arturia Microbrute</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/korg-z1" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Korg Z1</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/korg-z1"><img src="/sites/default/files/inline-images/z1.jpg" data-entity-uuid="d41c990d-d1c7-4816-b9e4-b34be2a1f4c3" data-entity-type="file" alt="Korg Z1" width="600" height="188" loading="lazy" /></a></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/korg-z1" rel="tag" title="Korg Z1" hreflang="en">Read more<span class="visually-hidden"> about Korg Z1</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/mfb-kraftzwerg" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">MFB Kraftzwerg</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/mfb-kraftzwerg"><img data-entity-uuid="1f90febc-5f66-4c51-864d-3be1b3671b71" data-entity-type="file" src="/sites/default/files/inline-images/mfb.jpg" alt="mfb kraftzwerg" width="600" height="303" loading="lazy" /></a></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/mfb-kraftzwerg" rel="tag" title="MFB Kraftzwerg" hreflang="en">Read more<span class="visually-hidden"> about MFB Kraftzwerg</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/former-loops" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Former Loops</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><p>A collection of loops mangled with Kontakt's Tone Machine.</p></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/former-loops" rel="tag" title="Former Loops" hreflang="en">Read more<span class="visually-hidden"> about Former Loops</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/akai-s612-modular" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Akai s612 ❤️ Modular</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/akai-s612-modular"><img src="/sites/default/files/inline-images/s612.png" data-entity-uuid="e0f70692-bb3f-49c3-9be6-52efbc3184cc" data-entity-type="file" alt="s612" width="600" height="390" loading="lazy" /></a><p> </p></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/akai-s612-modular" rel="tag" title="Akai s612 ❤️ Modular" hreflang="en">Read more<span class="visually-hidden"> about Akai s612 ❤️ Modular</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/sequential-max" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Sequential MAX</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/sequential-max"><img src="/sites/default/files/inline-images/max.png" data-entity-uuid="7bd7b3e8-d172-4e89-a5cb-75dcf5d960bd" data-entity-type="file" alt="SCI MAX" width="600" height="242" loading="lazy" /></a><p> </p></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/sequential-max" rel="tag" title="Sequential MAX" hreflang="en">Read more<span class="visually-hidden"> about Sequential MAX</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/oberheim-xpander" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Oberheim Xpander</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/oberheim-xpander"><img src="/sites/default/files/inline-images/xp.png" data-entity-uuid="8ba27378-07eb-47af-89cb-3c19c518da95" data-entity-type="file" alt="Xpander" width="600" height="600" loading="lazy" /></a></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/oberheim-xpander" rel="tag" title="Oberheim Xpander" hreflang="en">Read more<span class="visually-hidden"> about Oberheim Xpander</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/ensoniq-esq1" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Ensoniq ESQ1</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/ensoniq-esq1"><img src="/sites/default/files/inline-images/esq.jpg" data-entity-uuid="8e598b9b-7afe-4f74-8805-823443389489" data-entity-type="file" alt="Ensoniq ESQ1" width="600" height="163" loading="lazy" /></a><p> </p></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/ensoniq-esq1" rel="tag" title="Ensoniq ESQ1" hreflang="en">Read more<span class="visually-hidden"> about Ensoniq ESQ1</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+    <div class="views-row"><article class="sample-libraries is-promoted teaser clearfix node">
+
+  
+      <h2>
+      <a href="/project/roland-sh-2" rel="bookmark"><span class="field field--name-title field--type-string field--label-hidden">Roland SH-2</span>
+</a>
+    </h2>
+    
+  <div class="content">
+          
+            <div class="clearfix text-formatted field field--name-field-images field--type-text-long field--label-hidden field__item"><a href="/project/roland-sh-2"><img src="/sites/default/files/inline-images/sh2.jpg" data-entity-uuid="34322e0f-55c9-4e6a-b82f-0a66ff036a96" data-entity-type="file" alt="Roland SH-2" width="600" height="265" loading="lazy" /></a><p> </p></div>
+        <div class="node__links">
+    <ul class="links inline"><li><a href="/project/roland-sh-2" rel="tag" title="Roland SH-2" hreflang="en">Read more<span class="visually-hidden"> about Roland SH-2</span></a></li></ul>  </div>
+
+      </div>
+
+          
+  
+</article>
+</div>
+
+    </div>
+  
+        <nav class="pager-nav text-center" role="navigation" aria-labelledby="pagination-heading">
+    <h4 id="pagination-heading" class="visually-hidden">Pagination</h4>
+    <ul class="pagination js-pager__items">
+                    <li class="page-item pager__item--first">
+          <a href="/SampleLibraries" title="Go to first page" class="page-link">
+            <span class="visually-hidden">First page</span>
+            <span aria-hidden="true">« First</span>
+          </a>
+        </li>
+                          <li class="page-item pager__item--previous">
+          <a href="/SampleLibraries/page/2" title="Go to previous page" rel="prev" class="page-link">
+            <span class="visually-hidden">Previous page</span>
+            <span aria-hidden="true">‹ Previous</span>
+          </a>
+        </li>
+                                      <li class="page-item">
+                                          <a href="/SampleLibraries" title="Go to page 1" class="page-link">
+            <span class="visually-hidden">
+              Page
+            </span>1</a>
+        </li>
+              <li class="page-item">
+                                          <a href="/SampleLibraries/page/2" title="Go to page 2" class="page-link">
+            <span class="visually-hidden">
+              Page
+            </span>2</a>
+        </li>
+              <li class="page-item is-active active" aria-current="page">
+                                          <a href="/SampleLibraries/page/3" title="Current page" aria-current="page" class="page-link">
+            <span class="visually-hidden">
+              Current page
+            </span>3</a>
+        </li>
+              <li class="page-item">
+                                          <a href="/SampleLibraries/page/4" title="Go to page 4" class="page-link">
+            <span class="visually-hidden">
+              Page
+            </span>4</a>
+        </li>
+                                      <li class="page-item pager__item--next">
+          <a href="/SampleLibraries/page/4" title="Go to next page" rel="next" class="page-link">
+            <span class="visually-hidden">Next page</span>
+            <span aria-hidden="true">Next ›</span>
+          </a>
+        </li>
+                          <li class="page-item pager__item--last">
+          <a href="/SampleLibraries/page/4" title="Go to last page" class="page-link">
+            <span class="visually-hidden">Last page</span>
+            <span aria-hidden="true">Last »</span>
+          </a>
+        </li>
+          </ul>
+  </nav>
+
+              <div class="feed-icons">
+      <a href="http://default/rss.xml" class="feed-icon">
+  Subscribe to Sample Libraries
+</a>
+
+    </div>
+  </div>
+</div>
+
+  </section>
+
+  </div>
+
+              </section>
+
+                              <aside class="col-sm-3" role="complementary">
+              <div class="region region-sidebar-second">
+                                                                <section id="block-dxpr-theme-modularsamplesgoldallkindsofeverything" class="block block-block-content block-block-content65317b8c-2e48-4060-927a-8bd1a85a4843 clearfix card card-body">
+  
+        <h2 class="block-title">Modularsamples Gold: All Kinds of Everything</h2>
+          <hr class="block-hr">
+    
+
+      
+            <div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><p align="center"><img src="/sites/default/files/inline-images/78g523if9gyhw101w80qrxsmnrbe%20copy.jpg" data-entity-uuid="46112b7f-b502-48c6-a98d-246556c3dec6" data-entity-type="file" alt="" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/fbt3zxlhthdpu5jcegfbl9od27if%20copy.jpg" data-entity-uuid="54d5b903-78ea-45d7-b1e7-d85ea5df3c8c" data-entity-type="file" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/rqe6x26husue68u96q5znno6tovf_2.jpeg" data-entity-uuid="9a636e16-7cf1-4238-a92b-efa5ee5d759b" data-entity-type="file" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/7uwn145geloacakd9iv5vwjhqff7_0.png" data-entity-uuid="290840f1-6656-40df-ad26-e6e2a0215213" data-entity-type="file" width="50" height="50" loading="lazy" /> </p><p align="center"><img src="/sites/default/files/inline-images/0wp3lqiwcgb1gsjhz8rsbgckghci_0.jpeg" data-entity-uuid="0a740bb5-9d63-4077-bb11-18066171ca34" data-entity-type="file" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/Untitled%206.jpg" data-entity-uuid="45b7669f-c715-46b0-b065-7d1ce95b6cda" data-entity-type="file" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/Untitled%204.jpg" data-entity-uuid="b4f2434d-17f4-4e6d-94fd-362c6a3fee85" data-entity-type="file" width="50" height="50" loading="lazy" /><img src="/sites/default/files/inline-images/Untitled%205.jpg" data-entity-uuid="5f202bc5-c971-4937-93bb-cf5294f29b3d" data-entity-type="file" width="50" height="50" loading="lazy" /></p><p>A collection of all the Modularsamples sample libraries, plugins, patch collections and more. Available now for the reduced price of <strong>£55</strong>. Includes:</p><ul><li>Xolotl Harmonic Synthesiser</li><li>Quetzalcoatl: Expanded </li><li>Oi, Grandad!: Ultra Pack Pro</li><li>MS Suite: 7 Kontakt Instruments</li><li>Untitled Loop Project</li><li>Excessive Hits</li><li>Tragic Automata: An Arturia Microfreak Patch Library</li><li>Yamaha PS-2 Sample Library</li><li>Lilac</li><li>Peach</li></ul><script src="https://gumroad.com/js/gumroad.js"></script><p align="center"><a class="gumroad-button" href="https://modularsamples.gumroad.com/l/hnwjrr">Buy on</a></p></div>
+      
+  </section>
+
+  </div>
+
+          </aside>
+                      </div><!-- end .ow -->
+      </div><!-- end main-container -->
+
+</div>
+
+
+</div><!-- end dxpr-theme-boxed-container -->
+
+  </div>
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"SampleLibraries","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"page":"2"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"dxpr_themeSettings":{"breadcrumbsSeparator":"\/","headerHeight":"100","headerOffset":"60","headerMobileHeight":"60","headerSideDirection":"left","hamburgerAnimation":"cross"},"user":{"uid":0,"permissionsHash":"c25671010ea2cb90466052e96dd6ddd935ae1dbcd6c9573c21838aeafe80b463"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.0"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.1.6"></script>
+<script src="/core/misc/drupal.js?v=10.1.6"></script>
+<script src="/core/misc/drupal.init.js?v=10.1.6"></script>
+<script src="/themes/contrib/bootstrap5/dist/bootstrap/5.3.2/dist/js/bootstrap.bundle.js?v=5.3.2"></script>
+<script src="/themes/contrib/dxpr_theme/vendor/classie.js?saxb9h"></script>
+<script src="/themes/contrib/dxpr_theme/js/minified/dxpr-theme-multilevel-mobile-nav.min.js?saxb9h"></script>
+<script src="/themes/contrib/dxpr_theme/js/minified/dxpr-theme-header.min.js?saxb9h"></script>
+
+    <div class="hidden" id="dxpr-theme-js-seed">sfy39587stp18</div>
+  </body>
+</html>
