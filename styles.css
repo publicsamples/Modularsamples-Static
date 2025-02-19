@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat', monospace;
+    background-color: #1e1e1e;
+    color: #cccccc;
+    margin: 0;
+    padding-bottom: 10px;
+	font-size: 20px;
+}
+
+
+a {
+ 
+	  color: #c0a174;
+    text-decoration: none;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+h1 {
+     color: #c0a174;
+}
+h2 {
+    text-align: center;	
+}
+
+h3 {
+      font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+nav a {
+    font-size: 20px;
+}
+main {
+    padding: 20px 40px; /* Increased left and right padding */
+}
+li {
+font-size: 14px;
+}
+.highlighted-project {
+    text-align: center;
+    margin-bottom: 30px;
+	
+}
+
+.highlighted-project img {
+    display: block;
+    margin: 0 auto;
+}
+.about, .contact {
+    margin-bottom: 40px;
+}
+footer {
+    background: #111;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
+.custom-projects, .project-page, .projects-overview {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.project-page {
+    display: flex;
+    gap: 20px;
+}
+.project-page .content {
+    flex: 3;
+}
+.project-page .sidebar {
+    flex: 1;
+    background: #222;
+    padding: 10px;
+}
+.project-page .sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.project-page .sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.projects-overview .project-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.projects-overview .project-item {
+    text-align: left;
+	
+}
+.projects-overview .project-item img.thumbnail {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto 10px;
+	 padding: 20px;
+}
+.pagination {
+    text-align: center;
+}
+.pagination a {
+    color: rgba(0, 255, 153, 0.8);
+    text-decoration: none;
+    font-weight: bold;
+}
